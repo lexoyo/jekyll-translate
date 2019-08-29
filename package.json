@@ -1,0 +1,18 @@
+{
+  "name": "jekyll-translate",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=12.0"
+  },
+  "description": "",
+  "bin": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "GPL",
+  "dependencies": {
+    "directory-tree": "^2.2.4",
+    "fs.promised": "^3.0.0",
+    "google-translate": "^2.2.0",
+    "gray-matter": "^4.0.2"
+  }
+}
