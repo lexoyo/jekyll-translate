@@ -15,5 +15,9 @@
     "google-translate": "^2.2.0",
     "gray-matter": "^4.0.2"
   },
-  "keywords": ["jekyll", "cli", "translation"]
+  "keywords": [
+    "jekyll",
+    "cli",
+    "translation"
+  ]
 }

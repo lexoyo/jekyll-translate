@@ -109,9 +109,9 @@ module.exports = class Translate {
       return md;
     }
   }
-  async translateJekyll(path, outPath, opt_srcLang, distLang, reg) {
+  async translateJekyll(path, outPath, opt_srcLang, distLang) {
     const files = [];
-    dirTree(path, { extensions: reg }, item => {
+    dirTree(path, { extensions: /\.[md|markdown]/ }, item => {
       files.push(item);
     });
     for(var idx in files) {
